@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <!-- Head Part -->
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>RunEx</title>
+        <link rel="stylesheet" href="secound.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css>
+    </head>
+    <!-- Body Part -->
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="RunexLogo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-sharp fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="homepage.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+           
+            <div class="text-box">
+                
+              
+                <input type="Name" class="contact-form-text" placeholder="Your Name">
+                <input type="Email" class="contact-form-text" placeholder="Your Email">
+                <input type="Phone" class="contact-form-text" placeholder="Your Phone">
+                <input type="Language" class="contact-form-text" placeholder="Your Language">
+                <textarea class="contact-form-text" placeholder="Tell us about you"></textarea>
+                  <br>
+                     
+                     <a href="" class="hero-btn">Apply Now</a>
+            </div>
+
+        </section>
+
+       <!-- what we offering -->
+
+
+
+     <!-- ----- Footer ----- -->
+
+     <section class="footer">
+        <h4>About US</h4>
+        <p>Here will be a copyright for this page</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+     </section>
+
+        <!--JavaScript for Toggle Menu -->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+             }
+             function hideMenu(){
+                navLinks.style.right = "-200px";
+             }
+
+        </script>
+    </body>
+<!-- Body End -->
+</html>
